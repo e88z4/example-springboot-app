@@ -1,2 +1,14 @@
-# example-springboot-app
-Example containerize Springboot application for Kubernetes deployment
+# App
+
+## Run
+
+```
+./gradlew clean bootRun
+```
+
+## Test
+
+```
+curl "localhost:8080/echo?echo=hello"
+{"echo":"ping"}
+```
